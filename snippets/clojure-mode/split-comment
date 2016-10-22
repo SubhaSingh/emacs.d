@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Split comment
+# key: sc
+# --
+)
+
+(comment

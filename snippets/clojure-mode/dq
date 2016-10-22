@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: Datomic query
+# key: q
+# --
+(d/q '[:find $1
+:in $ $2
+:where
+[$0]]
+$3)
